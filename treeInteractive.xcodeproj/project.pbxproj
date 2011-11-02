@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8D33101431FD3A00F61A8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D330F1431FD3A00F61A8D /* UIKit.framework */; };
+		DD8D33121431FD3A00F61A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D33111431FD3A00F61A8D /* Foundation.framework */; };
+		DD8D33141431FD3A00F61A8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D33131431FD3A00F61A8D /* CoreGraphics.framework */; };
+		DD8D331A1431FD3A00F61A8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33181431FD3A00F61A8D /* InfoPlist.strings */; };
+		DD8D331C1431FD3A00F61A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D331B1431FD3A00F61A8D /* main.m */; };
+		DD8D33201431FD3A00F61A8D /* treeInteractiveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D331F1431FD3A00F61A8D /* treeInteractiveAppDelegate.m */; };
+		DD8D33231431FD3A00F61A8D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33211431FD3A00F61A8D /* MainWindow.xib */; };
+		DD8D33261431FD3A00F61A8D /* treeInteractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D33251431FD3A00F61A8D /* treeInteractiveViewController.m */; };
+		DD8D33291431FD3A00F61A8D /* treeInteractiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33271431FD3A00F61A8D /* treeInteractiveViewController.xib */; };
+		DD8D33391432059200F61A8D /* background.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33341432059200F61A8D /* background.tiff */; };
+		DD8D333A1432059200F61A8D /* fertilize.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33351432059200F61A8D /* fertilize.png */; };
+		DD8D333B1432059200F61A8D /* trim.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33361432059200F61A8D /* trim.png */; };
+		DD8D333C1432059200F61A8D /* watering.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33371432059200F61A8D /* watering.png */; };
+		DD8D333D1432059200F61A8D /* weeding.btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D33381432059200F61A8D /* weeding.btn.png */; };
+		DD8D3342143207DA00F61A8D /* eyeemotions005.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D333E143207DA00F61A8D /* eyeemotions005.png */; };
+		DD8D3343143207DA00F61A8D /* eyeemotions007.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D333F143207DA00F61A8D /* eyeemotions007.png */; };
+		DD8D3344143207DA00F61A8D /* eyeemotions016.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3340143207DA00F61A8D /* eyeemotions016.png */; };
+		DD8D3345143207DA00F61A8D /* eyeemotions017.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3341143207DA00F61A8D /* eyeemotions017.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD8D330B1431FD3A00F61A8D /* treeInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = treeInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8D330F1431FD3A00F61A8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD8D33111431FD3A00F61A8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD8D33131431FD3A00F61A8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD8D33171431FD3A00F61A8D /* treeInteractive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "treeInteractive-Info.plist"; sourceTree = "<group>"; };
+		DD8D33191431FD3A00F61A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD8D331B1431FD3A00F61A8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD8D331D1431FD3A00F61A8D /* treeInteractive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "treeInteractive-Prefix.pch"; sourceTree = "<group>"; };
+		DD8D331E1431FD3A00F61A8D /* treeInteractiveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = treeInteractiveAppDelegate.h; sourceTree = "<group>"; };
+		DD8D331F1431FD3A00F61A8D /* treeInteractiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = treeInteractiveAppDelegate.m; sourceTree = "<group>"; };
+		DD8D33221431FD3A00F61A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD8D33241431FD3A00F61A8D /* treeInteractiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = treeInteractiveViewController.h; sourceTree = "<group>"; };
+		DD8D33251431FD3A00F61A8D /* treeInteractiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = treeInteractiveViewController.m; sourceTree = "<group>"; };
+		DD8D33281431FD3A00F61A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/treeInteractiveViewController.xib; sourceTree = "<group>"; };
+		DD8D33341432059200F61A8D /* background.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = background.tiff; sourceTree = "<group>"; };
+		DD8D33351432059200F61A8D /* fertilize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fertilize.png; sourceTree = "<group>"; };
+		DD8D33361432059200F61A8D /* trim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trim.png; sourceTree = "<group>"; };
+		DD8D33371432059200F61A8D /* watering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watering.png; sourceTree = "<group>"; };
+		DD8D33381432059200F61A8D /* weeding.btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weeding.btn.png; sourceTree = "<group>"; };
+		DD8D333E143207DA00F61A8D /* eyeemotions005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeemotions005.png; sourceTree = "<group>"; };
+		DD8D333F143207DA00F61A8D /* eyeemotions007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeemotions007.png; sourceTree = "<group>"; };
+		DD8D3340143207DA00F61A8D /* eyeemotions016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeemotions016.png; sourceTree = "<group>"; };
+		DD8D3341143207DA00F61A8D /* eyeemotions017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeemotions017.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8D33081431FD3A00F61A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D33101431FD3A00F61A8D /* UIKit.framework in Frameworks */,
+				DD8D33121431FD3A00F61A8D /* Foundation.framework in Frameworks */,
+				DD8D33141431FD3A00F61A8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8D33001431FD3A00F61A8D = {
+			isa = PBXGroup;
+			children = (
+				DD8D3333143204BA00F61A8D /* Images */,
+				DD8D33151431FD3A00F61A8D /* treeInteractive */,
+				DD8D330E1431FD3A00F61A8D /* Frameworks */,
+				DD8D330C1431FD3A00F61A8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8D330C1431FD3A00F61A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D330B1431FD3A00F61A8D /* treeInteractive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD8D330E1431FD3A00F61A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D330F1431FD3A00F61A8D /* UIKit.framework */,
+				DD8D33111431FD3A00F61A8D /* Foundation.framework */,
+				DD8D33131431FD3A00F61A8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8D33151431FD3A00F61A8D /* treeInteractive */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D331E1431FD3A00F61A8D /* treeInteractiveAppDelegate.h */,
+				DD8D331F1431FD3A00F61A8D /* treeInteractiveAppDelegate.m */,
+				DD8D33211431FD3A00F61A8D /* MainWindow.xib */,
+				DD8D33241431FD3A00F61A8D /* treeInteractiveViewController.h */,
+				DD8D33251431FD3A00F61A8D /* treeInteractiveViewController.m */,
+				DD8D33271431FD3A00F61A8D /* treeInteractiveViewController.xib */,
+				DD8D33161431FD3A00F61A8D /* Supporting Files */,
+			);
+			path = treeInteractive;
+			sourceTree = "<group>";
+		};
+		DD8D33161431FD3A00F61A8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D33171431FD3A00F61A8D /* treeInteractive-Info.plist */,
+				DD8D33181431FD3A00F61A8D /* InfoPlist.strings */,
+				DD8D331B1431FD3A00F61A8D /* main.m */,
+				DD8D331D1431FD3A00F61A8D /* treeInteractive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD8D3333143204BA00F61A8D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D333E143207DA00F61A8D /* eyeemotions005.png */,
+				DD8D333F143207DA00F61A8D /* eyeemotions007.png */,
+				DD8D3340143207DA00F61A8D /* eyeemotions016.png */,
+				DD8D3341143207DA00F61A8D /* eyeemotions017.png */,
+				DD8D33341432059200F61A8D /* background.tiff */,
+				DD8D33351432059200F61A8D /* fertilize.png */,
+				DD8D33361432059200F61A8D /* trim.png */,
+				DD8D33371432059200F61A8D /* watering.png */,
+				DD8D33381432059200F61A8D /* weeding.btn.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8D330A1431FD3A00F61A8D /* treeInteractive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8D332C1431FD3A00F61A8D /* Build configuration list for PBXNativeTarget "treeInteractive" */;
+			buildPhases = (
+				DD8D33071431FD3A00F61A8D /* Sources */,
+				DD8D33081431FD3A00F61A8D /* Frameworks */,
+				DD8D33091431FD3A00F61A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = treeInteractive;
+			productName = treeInteractive;
+			productReference = DD8D330B1431FD3A00F61A8D /* treeInteractive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8D33021431FD3A00F61A8D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DD8D33051431FD3A00F61A8D /* Build configuration list for PBXProject "treeInteractive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD8D33001431FD3A00F61A8D;
+			productRefGroup = DD8D330C1431FD3A00F61A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8D330A1431FD3A00F61A8D /* treeInteractive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD8D33091431FD3A00F61A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D331A1431FD3A00F61A8D /* InfoPlist.strings in Resources */,
+				DD8D33231431FD3A00F61A8D /* MainWindow.xib in Resources */,
+				DD8D33291431FD3A00F61A8D /* treeInteractiveViewController.xib in Resources */,
+				DD8D33391432059200F61A8D /* background.tiff in Resources */,
+				DD8D333A1432059200F61A8D /* fertilize.png in Resources */,
+				DD8D333B1432059200F61A8D /* trim.png in Resources */,
+				DD8D333C1432059200F61A8D /* watering.png in Resources */,
+				DD8D333D1432059200F61A8D /* weeding.btn.png in Resources */,
+				DD8D3342143207DA00F61A8D /* eyeemotions005.png in Resources */,
+				DD8D3343143207DA00F61A8D /* eyeemotions007.png in Resources */,
+				DD8D3344143207DA00F61A8D /* eyeemotions016.png in Resources */,
+				DD8D3345143207DA00F61A8D /* eyeemotions017.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8D33071431FD3A00F61A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D331C1431FD3A00F61A8D /* main.m in Sources */,
+				DD8D33201431FD3A00F61A8D /* treeInteractiveAppDelegate.m in Sources */,
+				DD8D33261431FD3A00F61A8D /* treeInteractiveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD8D33181431FD3A00F61A8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8D33191431FD3A00F61A8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD8D33211431FD3A00F61A8D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8D33221431FD3A00F61A8D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD8D33271431FD3A00F61A8D /* treeInteractiveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8D33281431FD3A00F61A8D /* en */,
+			);
+			name = treeInteractiveViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD8D332A1431FD3A00F61A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD8D332B1431FD3A00F61A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8D332D1431FD3A00F61A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "treeInteractive/treeInteractive-Prefix.pch";
+				INFOPLIST_FILE = "treeInteractive/treeInteractive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD8D332E1431FD3A00F61A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "treeInteractive/treeInteractive-Prefix.pch";
+				INFOPLIST_FILE = "treeInteractive/treeInteractive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8D33051431FD3A00F61A8D /* Build configuration list for PBXProject "treeInteractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8D332A1431FD3A00F61A8D /* Debug */,
+				DD8D332B1431FD3A00F61A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8D332C1431FD3A00F61A8D /* Build configuration list for PBXNativeTarget "treeInteractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8D332D1431FD3A00F61A8D /* Debug */,
+				DD8D332E1431FD3A00F61A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD8D33021431FD3A00F61A8D /* Project object */;
+}
